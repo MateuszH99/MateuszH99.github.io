@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <title>Page Title</title>
 <link rel="stylesheet" href="style.css">
 
@@ -15,17 +16,117 @@
 	#dane,#wpisane{
 	display:inline-block;
 	}
-	
 	#naglowki{
 	text-align: center;
 	font-size: 40px;
 	}
+	
+      #rodzic {
+        width:740px;
+        height:46px;
+        font-size:24px;
+        margin:auto;
+        text-align:center;
+      }
+
+      #rodzic > span {
+        display:block;
+        float:left;
+        width:40px;
+        line-height:40px;
+        margin:0 5px;
+        border:3px solid #FDD700;
+        background-color:#FFF;
+        border-radius:6px;
+        animation:animowany_tekst 5s linear infinite;
+      }
+
+      #rodzic > span:nth-child(1) {
+        animation-delay:250ms;
+        -webkit-animation-delay:250ms;
+      }
+
+      #rodzic > span:nth-child(2) {
+        animation-delay:500ms;
+        -webkit-animation-delay:500ms;
+      }
+	  
+	  #rodzic > span:nth-child(3) {
+        animation-delay:750ms;
+        -webkit-animation-delay:750ms;
+      }
+
+      #rodzic > span:nth-child(4) {
+        animation-delay:1000ms;
+        -webkit-animation-delay:1000ms;
+      }
+
+      #rodzic > span:nth-child(5) {
+        animation-delay:1250ms;
+        -webkit-animation-delay:1250ms;
+      }
+
+      #rodzic > span:nth-child(6) {
+        animation-delay:1500ms;
+        -webkit-animation-delay:1500ms;
+      }
+	  
+	   #rodzic > span:nth-child(7) {
+        animation-delay:1750ms;
+        -webkit-animation-delay:1750ms;
+      }
+	  
+	   #rodzic > span:nth-child(8) {
+        animation-delay:2000ms;
+        -webkit-animation-delay:2000ms;
+      }
+	  
+	   #rodzic > span:nth-child(9) {
+        animation-delay:2250ms;
+        -webkit-animation-delay:2250ms;
+      }
+	  
+	   #rodzic > span:nth-child(10) {
+        animation-delay:2500ms;
+        -webkit-animation-delay:2500ms;
+      }
+	  
+	   #rodzic > span:nth-child(11) {
+        animation-delay:2750ms;
+        -webkit-animation-delay:2750ms;
+      }
+	  
+	   #rodzic > span:nth-child(12) {
+        animation-delay:3000ms;
+        -webkit-animation-delay:3000ms;
+      }
+
+      /*------------------------ANIMACJA------------------------*/
+      @keyframes animowany_tekst
+      {
+        0% {transform:rotate(0);}
+        10% {transform:rotate(360deg);}
+        100% {transform:rotate(360deg);}
+      }
+
+      @-webkit-keyframes animowany_tekst 
+      {
+        0% {-webkit-transform:rotate(0);}
+        10% {-webkit-transform:rotate(360deg);}
+        100% {-webkit-transform:rotate(360deg);}
+      }
 </style>
 </head>
 <body>
 
-<header>CV</header>
-<img src="https://github.com/MateuszH99/MateuszH99.github.io/blob/main/profil.jpg" align="right" width="100px" height="100px"> 
+
+<div id="rodzic">
+    <span id="dziecko1">C</span><span id="dziecko2">V</span>
+  </div>
+<br>
+<br>  
+
+<img src="https://github.com/MateuszH99/MateuszH99.github.io/blob/main/profil.jpg?raw=true" align="right" width="100px" height="100px"> 
 
 <div id="dane">Imie i nazwisko:
 	<div id="wpisane">Mateusz Hyży</div>
@@ -50,16 +151,29 @@
 <br>
 <br>
 
-  <div id="naglowki">Szkoła</div> 
+<div id="rodzic">
+    <span id="dziecko1">S</span><span id="dziecko2">z</span><span id="dziecko3">k</span><span id="dziecko4">o</span><span id="dziecko5">ł</span><span id="dziecko6">a</span>
+  </div>
+<br>
   <p>ZSE w Pile - 2015-2019 - kierunek informatyka</p>
   <p>UKW w Bydgoszczy - 2019-trwa - kierunek informatyka</p>
 <br>
 <br>  
-<div id="naglowki">Doświadczenie zawodowe</div>
-  <p> Belma Accessories Systems Białe Błota - 2019-trwa - młodszy informatyk</p>
+
+<div id="rodzic">
+    <span id="dziecko1">D</span><span id="dziecko2">o</span><span id="dziecko3">ś</span><span id="dziecko4">w</span><span id="dziecko5">i</span>
+	<span id="dziecko6">a</span><span id="dziecko7">d</span><span id="dziecko7">c</span><span id="dziecko8">z</span><span id="dziecko9">e</span>
+	<span id="dziecko10">n</span><span id="dziecko11">i</span><span id="dziecko12">e</span>
+  </div>
+<br>
+  <p> Belma Accessories Systems Białe Błota - 2019 - trwa - młodszy informatyk</p>
 <br>
 <br>
-  <h1>Doświadczenie</h1>
+
+<div id="rodzic">
+    <span id="dziecko1">K</span><span id="dziecko2">u</span><span id="dziecko3">r</span><span id="dziecko4">s</span><span id="dziecko5">y</span>
+  </div>
+<br>
   <p>Konkurs Bosh - ten z autkiem :) </p>
   <p>Coś napewno by się jeszcze znalazło</p>
   

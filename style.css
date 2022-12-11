@@ -1,10 +1,7 @@
 body {
-  background-color: #e0f6f8;
-}
-
-h1 {
-  color: black;
-  text-align: center;
+  background-color: white;
+  margin-right: 570px;
+  margin-left: 570px;
 }
 
 header{
@@ -16,3 +13,4 @@ header{
 p {
 	text-align: center;
 }
+
