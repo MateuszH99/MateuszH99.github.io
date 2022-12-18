@@ -4,6 +4,11 @@ body {
   margin-left: 570px;
 }
 
+button{
+	text-align: center;
+	margin-left: 340px;
+}
+
 header{
 	font-size: 40px;
 	text-align: center;
